@@ -1,0 +1,8 @@
+#hero {
+  background:
+    linear-gradient(rgba(var(--c-brand-rgb), 0.439), rgba(var(--c-brand-rgb), 0.42)),
+    url(../images//hero-bg.jpg);
+  background-position: cover;
+  background-size:cover;
+  background-repeat: no-repeat;
+}

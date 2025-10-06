@@ -1,0 +1,108 @@
+@import url(../css/clash-display.css);
+@import url(../css/common.css);
+@import url(../css/navbar.css);
+@import url(../css/hero-section.css);
+@import url(../css/service-section.css);
+@import url(../css/counter-section.css);
+@import url(../css/review-section.css);
+
+:root {
+  --c-dark: #212529;
+  --c-brand: #4e57d4;
+  --c-brand-light: #6970dd;
+  --c-brand-rgb: 105, 112, 221;
+  --c-body: #727272;
+  --font-base: "ClashDisplay", "sans-serif";
+  --box-shadow: 0 15px 25px rgba(0, 0, 0, 0.08);
+  --transition: all 0.5s ease;
+}
+
+body {
+  font-family: var(--font-base);
+  line-height: 1.7;
+  color: var(--c-body);
+}
+
+h1 ,h2, h3, h4, h5, h6{
+  font-weight: 600;
+  color: var(--c-dark);
+}
+
+a {
+  text-decoration: none;
+  color: var(--c-brand);
+  transition: var(--transition);
+}
+
+a:hover {
+  color: var(--c-brand-light);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.theme-shadow {
+  box-shadow: var(--box-shadow);
+}
+
+.header-image {
+  width: 10rem;
+  height: 40px;
+}
+
+.section {
+  min-height: 100vh;
+}
+
+.section-padding {
+  padding-top: 140px;
+  padding-bottom: 140px;
+}
+
+.section-title {
+  margin-bottom: 40px;
+}
+
+.section-title .separator {
+  width: 60px;
+  height: 4px;
+  background: var(--c-brand);
+  margin: 16px auto 24px auto;
+}
+
+.section-title h1 {
+  line-height: 1.2;
+  font-size: calc(1.475rem + 2.7vw);
+  font-weight: 600;
+}
+
+.section-title p {
+  max-width: 600px;
+  font-size: calc(0.75rem + 0.5vw);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.section-title #highlight {
+  color: var(--c-brand-light);
+  font-weight: 600;
+}
+
+.social-icons a {
+  margin: 0.125rem 0.5rem;
+  padding: 100px;
+  padding: 0.25rem;
+}
+
+.social-icons a i {
+  font-size: 2.25rem;
+  transition: transform 0.3s;
+}
+
+.social-icons a:hover i {
+  transform: scale(1.2);
+}
+
+
